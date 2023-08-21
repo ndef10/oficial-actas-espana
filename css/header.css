@@ -1,0 +1,58 @@
+/*header con video*/
+
+header {
+    position: relative;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+}
+
+.videos-header{
+    position: relative;
+}
+
+.video-header::before{
+    content: '';
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,.1);
+    z-index: 1;   
+}
+
+.texto-encabezado{
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.texto-encabezado h2{
+    color: var(--blanco);
+    font-size: 2.5rem;
+}
+
+.texto-encabezado p {
+    color: var(--blanco);
+    font-size: 1.5rem;
+    position: relative;
+}
+
+@media(min-width:768px){
+    .texto-encabezado p {
+        font-size: 2rem;
+    }
+
+    .texto-encabezado h2{
+        font-size: 4rem;
+    }
+}

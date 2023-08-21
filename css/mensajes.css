@@ -1,0 +1,35 @@
+/* mensajes */
+
+#mensaje_contacto {
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    padding-left: 1rem;
+    text-align: left;
+    font-weight: bold;
+}
+
+.error {
+    display: block; 
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--negro);
+    background-color: var(--danger);
+    border-radius: 1rem;
+}  
+
+.invalido {
+    border: solid 1px red;
+    box-shadow: 0 0 10px red;
+}
+
+.exito {
+    display: block;
+    color: var(--blanco);
+    font-size: 2rem;
+    text-align: center;
+    border-radius: 5px;
+    font-family: var(--parrafos);
+    background-color: green;
+}
+
+

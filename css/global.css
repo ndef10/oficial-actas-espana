@@ -1,0 +1,95 @@
+/*  globales*/
+
+:root {
+    --primario: rgb(149, 11, 11);
+    --secundario: rgb(227, 202, 13);
+    --blanco: white;
+    --negro: black;
+    --oscuro: #000;
+    --margen: #e1e1e1;
+    --sombra: #e5e5e5;
+    --menu-movil: #3a4460;
+    --degrade-claro: linear-gradient(to right, var(--primario), var(--secundario));
+    --degrade-oscuro: linear-gradient(to right, black, grey, black);
+    --success: green;
+    --danger: red;
+    --titulos: 'Bad Script', cursive;
+    --parrafos:'Montserrat',sans-serif;   
+
+}
+
+html{
+    box-sizing: border-box;  
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    overflow-x: hidden;    
+}
+
+@media(max-width:950px){
+    body {
+        padding-top: 10rem;
+    }
+}
+
+
+*,*::after, *::before{
+    box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;  
+}
+
+h1, h2 {
+    font-family: var(--titulos);
+    font-weight: bold;
+}
+
+h3, p, a {
+    font-family: var(--parrafos);
+}
+
+.primario {
+    color: var(--primario);
+}
+
+.secundario {
+    color: var(--secundario);
+}
+
+.ocultar{
+    display: none;
+}
+
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto;
+    width: 95%;
+}
+
+img {
+    max-width: 100%;
+}
+
+.btn-nuevo{
+    text-decoration: none;
+    color: var(--blanco);
+    font-size: 2rem;
+    text-transform: capitalize;
+    padding: 0.8em 3em;
+    margin-bottom: 2rem;
+    border: 0;
+    border-radius: 10px;
+    transition: all .3s ease-in-out;
+    background: var(--degrade-claro);
+}
+
+a:hover {
+    filter: brightness(150%);
+}
+
+
+

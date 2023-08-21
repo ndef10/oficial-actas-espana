@@ -1,0 +1,43 @@
+/* separador-ondas */
+
+.extra { 
+    display: flex;
+    flex-direction: column;
+    top: 2px;
+}
+
+.onda-inferior {
+    top: -2px;
+}
+
+.disponible {
+    background-color: var(--oscuro);
+    color: var(--blanco);
+    text-align: center;
+}
+
+.contenido-separador1{
+    background-color: var(--oscuro);
+    padding-top: 1rem;
+    padding-bottom: 8rem;
+    text-align: center;
+}
+
+.contenido-separador1 p{
+    color: var(--blanco);
+}
+
+.contenido-separador1 h2 {
+    font-size: 4rem;
+    color: var(--blanco);
+}
+
+@media(min-width: 768px) {
+    .contenido-separador1 h2{
+        font-size: 5rem;
+    }
+
+    .contenido-separador1 p{
+        font-size: 3rem;
+    }
+}

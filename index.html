@@ -1,15 +1,277 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>hola mundo!!!!
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Actas España</title>
+
+    <!-- font aweson 6.4.0-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arima:wght@700&family=Cinzel:wght@600&family=Libre+Baskerville:wght@400;700&family=Montserrat:ital,wght@0,400;0,700;1,500&family=Mulish:ital,wght@1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- fonts titulos -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arima:wght@700&family=Bad+Script&family=Cinzel:wght@600&family=Libre+Baskerville:wght@400;700&family=Montserrat:ital,wght@0,400;0,700;1,500&family=Mulish:ital,wght@1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+
+    <!-- normalize -->
+    <link rel="stylesheet" href="css/normalize.css" />
+
+    <!-- css global -->
+    <link rel="stylesheet" href="css/global.css" />
+
+    <!-- css-navbar -->
+    <link rel="stylesheet" href="css/navbar.css" />
+
+    <!-- css-header -->
+    <link rel="stylesheet" href="css/header.css" />
+
+    <!-- css-nosotros -->
+    <link rel="stylesheet" href="css/nosotros.css" />
+
+    <!-- css-separador-ondas -->
+    <link rel="stylesheet" href="css/separador-ondas.css" />
+
+    <!-- css-separador-imagen -->
+    <!-- <link rel="stylesheet" href="css/separador-imagen.css" /> -->
+
+    <!-- css-contacto -->
+    <link rel="stylesheet" href="css/contacto.css" />
+
+    <!-- css-ubicacion -->
+    <link rel="stylesheet" href="css/ubicacion.css" />
+
+    <!-- css-pie-pagina-->
+    <link rel="stylesheet" href="css/pie-pagina.css" />
+
+    <!-- css-footer -->
+    <link rel="stylesheet" href="css/footer.css" />
+
+    <!-- css-mensajes -->
+    <link rel="stylesheet" href="css/mensajes.css" />
+
+  </head>
+  <body>
+    <header>
+      <nav class="encabezado">
+        <div class="contenedor-navegacion">
+          <a href="#" class="logo">
+            <img
+              height="50"
+              width="50"
+              src="assets/img/icono.jpg"
+              alt="logo"
+            />
+            <div>
+              <h1>Actas España</h1>
+            </div>
+            <div class="hamburguesa">
+              <span></span><span></span><span></span>
+            </div>
+          </a>
+          <ul class="menu">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#nosotros">Sobre Nosotros</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="#suscripcion">Suscripcion</a></li>
+            <li class="btn-cerrar"><div>X</div></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div id="inicio" class="video-header">
+        <div class="contenedor-encabezado">
+          <div class="texto-encabezado">
+            <h2>Quieres obtener tu ciudadania?</h2>
+            <p>Podemos ayudarte</p>
+            <a href="https://wa.me/56933378817" target="_blank" class="btn btn-nuevo">contactar</a>
+          </div>
+          <video autoplay loop muted>
+            <source src="/assets/pexels-vlada-karpovich-7429830 (1080p).mp4" />
+          </video>
+        </div>
+      </div>
+    </header>
+
+    <div id="nosotros" class="contenedor-nosotros contenedor">
+      <div class="texto-nosotros">
+        <p class="bienvenida">Pensando en migrar?</p>
+        <h1>En Actas España te ayudamos</h1>
+        <p>
+          SI Quieres tramitar tu ciudadania, te ayudamos a obtener las actas que
+          requieres, ponte en contacto con nosotros bla bla bla Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Nesciunt, minima veniam quod, aliquid
+          sint voluptate, consequatur quam totam delectus molestiae illum
+          debitis odio quo? Saepe in fuga non. Impedit quas rem reprehenderit?
+          Soluta obcaecati itaque, corporis vitae nostrum amet dignissimos hic
+          voluptates nisi. Nihil itaque quaerat debitis eveniet voluptatibus
+          laboriosam.
+        </p><br>
+        <p><strong>Precios accesibles para cuando tenga tu acta!</strong></p>
+
+        <br />
+
+        <a
+          href="https://wa.me/56933378817?text=Hola!!%20quisiera%20MAS%20INFORMACION"
+          target="_blank"
+          class="btn btn-nuevo"
+          >contactar
+        </a>
+      </div>
+      <div class="imagenes-nosotros">
+        <div class="imagen1">
+          <img src="/assets/img/bandera2.jpg" alt="foto1" />
+        </div>
+        <div class="imagenes2">
+          <img src="/assets/img/pasaporte1.jpg" alt="foto2" />
+          <img src="/assets/img/maaleta.jpg" alt="foto3" />
+        </div>
+      </div>
+    </div>
+
+    <section class="extra">
         
-    </h1>
+        <div class="onda-superior" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: var(--oscuro);"></path></svg></div>
+            
+          <div class="contenido-separador1">
+            <h2>Respondemos a tu confianza</h2><br>           
+            <p>Todos tus datos se mantienen en absoluta confidencialidad.</p> 
+            <a 
+            href="https://wa.me/56933378817?text=Hola!!%20quisiera%20MAS%20INFORMACION"
+            target="_blank"
+            class="btn btn-nuevo"
+            >contactar
+            </a> 
+          </div>
+
+        <div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 271.49,-49.98 500.00,49.98 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: var(--oscuro);"></path></svg></div>
     
-</body>
+    </section>
+    
+    <div id="contacto" class="formulario-contacto container">
+      <h3>Contactanos</h3>
+      <p>Con gusto nos pondremos en contacto contigo</p>
+
+      <form id="form-contacto" class="formulario"  action="https://formsubmit.co/nodemailerMD@gmail.com" method="POST" />
+          <div class="form-group">
+
+            <div class="input-formulario">
+              <label for="nombre">Nombre</label>
+              <input type="text" placeholder="Ej: Maria" name="nombre"/>
+              <span></span>
+            </div> 
+            <div class="input-formulario">
+              <label for="correo">Correo</label>
+              <input type="text" placeholder="Ej: ejemplo@ejemplo.com" name="correo" />
+              <span></span>
+            </div>
+
+          </div>
+          <div class="form-group">
+
+            <div class="input-formulario">
+              <label for="telefono">Teléfono</label>
+              <input type="number" placeholder="Ej: +56 943 769 340" name="telefono" />
+              <span></span>
+            </div>
+            <div class="input-formulario">
+              <label for="asunto">Asunto</label>
+              <input type="text" placeholder="Ej: Consulta" name="asunto" />
+              <span></span>
+            </div>
+
+          </div>
+            
+            <div class="input-formulario">
+              <label for="mensaje">Mensaje</label>
+              <textarea name="mensaje" placeholder="Escribe aquí tu mensaje"></textarea>
+              <span class="error"></span>
+            </div>
+
+            <div id="mensaje_contacto"></div>
+            <div class="btn-formulario">
+              <input id="enviar" type="submit" name="submit" value="Enviar" />
+            </div>
+
+            <div class="redes-sociales">     
+              <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://wa.me/56933378817" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>          
+            </div> 
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/#contacto" ></input>
+            <input type="hidden" name="_captcha" value="false"></input> 
+          </form>
+    </div>
+
+    <div class="pie-pagina">
+      
+      <div class="contenedor-piepagina contenedor">
+        <div class="info">
+          <h3>Horarios</h3>
+          <p>Lunes - Viernes 10:30am - 17:30pm</p>
+          <p><span class="primario">(Hora de Alemania)</span></p>
+        </div>
+        <div class="info">
+          <h3>Estamos en redes sociales</h3>
+          <p>Siguenos para mas informacion</p>
+          
+          <div class="redes-sociales redes-pie">
+            <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/glamour_y_estiloo/?igshid=OGQ5ZDc2ODk2ZA%3D%3D" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://wa.me/56962964710" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+
+    <footer class="footer">
+      <p>
+        Todos los derechos reservados &copy; 2023 Actas España,
+        desarrollado por: <span class="primario">ndefranchi</span>
+      </p>
+    </footer>
+
+    <!-- js -->
+    <script defer src="js/index.js"></script>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
