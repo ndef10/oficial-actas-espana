@@ -1,0 +1,31 @@
+/* boton wsp flotante */
+
+.boton-wsp {
+    position: fixed;
+    width: 6rem;
+    height: 6rem;
+    line-height: 4rem;
+    bottom: 3rem;
+    right: 3rem;
+    background: #04c140;
+    color:var(--blanco);
+    border-radius: 50%;
+    text-align: center;
+    font-size: 4rem;
+    box-shadow: 0px 1px 10px rgba(0,0,0.3);
+    transition: ease 0.3s;
+    z-index: 100;
+}
+
+.boton-wsp:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
+    background:var(--blanco);
+  
+}
+
+.boton-wsp:hover i {
+    color: #05f350;
+    background:var(--blanco);
+    transition: 0.3s;
+}
