@@ -29,6 +29,8 @@
 .texto-nosotros h1{
     font-size: 5rem;
     text-align: center;
+    color: var(--negro);
+    font-weight: bold;
 }
 
 @media(min-width: 768px) {
