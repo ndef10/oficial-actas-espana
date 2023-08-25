@@ -12,7 +12,7 @@
     display: block; 
     font-size: 2rem;
     font-weight: bold;
-    color: var(--negro);
+    color: var(--blanco);
     background-color: var(--danger);
     border-radius: 1rem;
 }  

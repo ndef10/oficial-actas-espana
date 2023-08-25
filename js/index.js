@@ -118,3 +118,43 @@ formulario.addEventListener('submit', function (e) {
     }
 });
 
+// suscripcion
+
+function suscripcion() {
+    const formulario = document.getElementById('suscripcion');
+    const correoInput = formulario.querySelector('input[name="correo_suscripcion"]');
+    const nombreSuscripcionInput = formulario.querySelector('input[name="nombre_suscripcion"]');
+    const nuevoParrafo = document.createElement('span');
+    mensaje_suscripcion.appendChild(nuevoParrafo);
+
+    formulario.addEventListener('submit', function (e) {
+        e.preventDefault();
+      
+        if (!nombreSuscripcionInput.value.trim()) {
+          const mensaje_suscripcion = document.getElementById('mensaje_suscripcion');
+          nuevoParrafo.classList.add('error');
+          nombreSuscripcionInput.classList.add("invalido");
+          nuevoParrafo.textContent = 'Ingresa tu nombre';
+          return; 
+        }
+      
+        const correo = correoInput.value.trim();
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!emailRegex.test(correo)) {
+          const mensaje_suscripcion = document.getElementById('mensaje_suscripcion');
+          nuevoParrafo.classList.add('error-suscripcion');
+          correoInput.classList.add("invalido");
+          nuevoParrafo.textContent = 'Ingresa un correo válido.';
+          return; 
+        }
+      
+        nuevoParrafo.classList.remove('error-suscripcion');
+        nombreSuscripcionInput.classList.remove("invalido");
+        correoInput.classList.remove("invalido");
+        nuevoParrafo.classList.add('exito');
+        nuevoParrafo.textContent = 'Bienvenida!!! Gracias por suscribirte';
+        formulario.submit();
+      });         
+}
+
+suscripcion();
