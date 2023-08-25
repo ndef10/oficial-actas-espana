@@ -1,0 +1,67 @@
+.casos {
+    position: relative;
+
+}
+
+.casos-contenedor {
+    text-align: center;
+}
+
+.casos-contenedor h2 {
+    font-size: 4rem;
+    line-height: 7rem;
+    color: var(--negro);
+    text-transform: capitalize;
+    padding: 0 25rem;
+    margin-bottom: 1rem;
+}
+
+.casos-contenedor p {
+    font-size: 1.5rem;
+    font-family: var(--parrafos);
+    color: #414247;
+    padding: 0 2rem;
+    margin-bottom: 3rem;
+}
+
+.casos-trio {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.caso1 img,
+.caso2 img,
+.caso3 img {
+width: 10rem; 
+height: 10rem; 
+margin-top: 3rem;
+border-radius: 50%;
+
+}
+
+.caso1 h3,
+.caso2 h3,
+.caso3 h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: var(--oscuro);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-family: var(--titulos);
+}
+
+@media(max-width:991px){
+    .casos {
+        padding: 30px;
+    }
+    .casos-contenedor h2 {
+        padding: 0;
+    }
+    .casos-trio {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+}
+
