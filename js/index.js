@@ -1,5 +1,3 @@
-require('dotenv').config();
-
 // menu
 
 const menu = document.querySelector('.menu');
