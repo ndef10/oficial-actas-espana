@@ -12,3 +12,7 @@
 .footer p {
     margin-top: 3rem;
 }
+
+.ocultar-contador {
+    display: none;
+}

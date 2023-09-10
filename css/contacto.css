@@ -8,7 +8,8 @@
 }
 
 .formulario-contacto h3 {
-    font-size: 4rem;color: var(--negro);
+    font-size: 4rem;
+    color: var(--negro);
     font-family: var(--titulos);
     font-weight: bold;
     margin-bottom: 1rem;

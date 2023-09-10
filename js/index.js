@@ -158,3 +158,24 @@ function suscripcion() {
 }
 
 suscripcion();
+
+// preguntas frecuentes
+
+function preguntas() {
+    const items = document.querySelectorAll(".item");
+    
+    items.forEach(function (item) {
+        const pregunta = item.querySelector(".pregunta");
+        const respuesta = item.querySelector(".respuesta");
+
+        pregunta.addEventListener("click", function () {
+            if (respuesta.style.display === "block") {
+                respuesta.style.display = "none";
+            } else {
+                respuesta.style.display = "block";
+            }
+        });
+    })
+}
+
+preguntas();

@@ -42,6 +42,10 @@ border-radius: 1rem;
 
 }
 
+.voltear {
+    transform: scaleX(-1);
+}
+
 .servicio1 h3,
 .servicio2 h3,
 .servicio3 h3 {

@@ -1,0 +1,48 @@
+.preguntas-frecuentes {
+    background-color: black;
+}
+
+.preguntas-frecuentes h3 {
+    text-align: center;
+    font-size: 4rem;
+    color: var(--blanco);
+    font-family: var(--titulos);
+    padding-bottom: 2rem;
+}
+
+.item {
+    border-radius: 1rem;
+    color: var(--blanco);
+    font-size: 2rem;
+    font-family: var(--parrafos);
+    margin-bottom: 1rem;
+    overflow: hidden;
+}
+
+.pregunta {
+    background-color: var(--primario);
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.respuesta {
+    padding: 1rem;
+    display: none;
+}
+
+#dos {
+    background-color: var(--secundario);
+}
+
+#tres {
+    margin-bottom: 0;
+    padding-bottom: 6rem;
+}
+
+
+
+
+
+
+
+
