@@ -18,7 +18,7 @@
 
 .contenido-separador1{
     background-color: var(--oscuro);
-    padding-top: 1rem;
+    /* padding-top: 1rem; */
     padding-bottom: 8rem;
     text-align: center;
 }
@@ -28,13 +28,13 @@
 }
 
 .contenido-separador1 h2 {
-    font-size: 4rem;
+    font-size: 3rem;
     color: var(--blanco);
 }
 
 @media(min-width: 768px) {
     .contenido-separador1 h2{
-        font-size: 5rem;
+        font-size: 4.5rem;
     }
 
     .contenido-separador1 p{

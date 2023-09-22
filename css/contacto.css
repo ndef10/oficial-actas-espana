@@ -8,11 +8,17 @@
 }
 
 .formulario-contacto h2 {
-    font-size: 5rem;
-    color: var(--negro);
-    font-family: var(--titulos);
-    font-weight: bold;
-    margin-bottom: 1rem;
+    font-size: 3rem;
+}
+
+@media(min-width:768px){
+    .formulario-contacto h2 {
+        font-size: 4.5rem;
+        color: var(--negro);
+        font-family: var(--titulos);
+        font-weight: bold;
+        margin-bottom: 1rem;
+    }
 }
 
 .contact {

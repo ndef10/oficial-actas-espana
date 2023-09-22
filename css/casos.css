@@ -8,11 +8,17 @@
 }
 
 .casos-contenedor h2 {
-    font-size: 5rem;
-    line-height: 7rem;
-    color: var(--negro);
-    padding: 0 25rem;
-    margin-bottom: 1rem;
+    font-size: 3rem;
+}
+
+@media(min-width:768px){
+    .casos-contenedor h2 {
+        font-size: 4.5rem;
+        line-height: 7rem;
+        color: var(--negro);
+        padding: 0 25rem;
+        margin-bottom: 1rem;
+    }
 }
 
 .casos-contenedor p {

@@ -10,12 +10,18 @@
 }
 
 .servicios-contenedor h2 {
-    font-size: 5rem;
-    line-height: 7rem;
-    color: var(--negro);
-    text-transform: capitalize;
-    padding: 0 25rem;
-    margin-bottom: 1rem;
+    font-size: 3.5rem;
+}
+
+@media(min-width:768px){
+    .servicios-contenedor h2 {
+        font-size: 4.5rem;
+        line-height: 7rem;
+        color: var(--negro);
+        text-transform: capitalize;
+        padding: 0 25rem;
+        margin-bottom: 1rem;
+    }
 }
 
 .servicios-contenedor p {
