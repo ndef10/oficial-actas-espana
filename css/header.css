@@ -49,7 +49,7 @@ video {
 
 @media(min-width:768px){
     .texto-encabezado p {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 
     .texto-encabezado h1{
