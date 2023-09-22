@@ -63,7 +63,11 @@
 } 
 
 .menu a:hover {
-    color: var(--primario); 
+    color: var(--primario) 
+}
+  
+.menu a:active {
+    color: var(--secundario) 
 }
 
 .hamburguesa {
