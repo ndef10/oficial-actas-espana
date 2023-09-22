@@ -54,6 +54,7 @@ h3, p, a {
 
 .primario {
     color: var(--primario);
+    white-space: nowrap;
 }
 
 .secundario {
