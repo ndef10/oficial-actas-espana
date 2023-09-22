@@ -7,8 +7,8 @@
     text-align: center;
 }
 
-.formulario-contacto h3 {
-    font-size: 4rem;
+.formulario-contacto h2 {
+    font-size: 5rem;
     color: var(--negro);
     font-family: var(--titulos);
     font-weight: bold;

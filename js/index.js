@@ -162,20 +162,28 @@ suscripcion();
 // preguntas frecuentes
 
 function preguntas() {
-    const items = document.querySelectorAll(".item");
-    
-    items.forEach(function (item) {
-        const pregunta = item.querySelector(".pregunta");
-        const respuesta = item.querySelector(".respuesta");
+    const preguntas = document.querySelectorAll('.pregunta');
 
-        pregunta.addEventListener("click", function () {
-            if (respuesta.style.display === "block") {
-                respuesta.style.display = "none";
+preguntas.forEach(pregunta => {
+    pregunta.addEventListener('click', () => {
+        const respuesta = pregunta.nextElementSibling;
+
+        if (respuesta.classList.contains('respuesta-oculta')) {
+                respuesta.classList.remove('respuesta-oculta');
+                respuesta.classList.add('respuesta-visible');
             } else {
-                respuesta.style.display = "block";
+                respuesta.classList.remove('respuesta-visible');
+                respuesta.classList.add('respuesta-oculta');
             }
         });
-    })
-}
+    });
+};
 
 preguntas();
+
+
+
+
+
+
+
