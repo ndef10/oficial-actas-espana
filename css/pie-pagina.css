@@ -1,9 +1,9 @@
 /* pie de pagina */
 
 .pie-pagina{
-    margin-top: 2rem;
-    background-color: rgb(20,20,20);
-    padding: 5rem;
+    /* margin-top: 2rem; */
+    background-color: var(--negro);
+    /* padding: 5rem; */
 }
 @media(min-width:768px){
     .contenedor-piepagina{
@@ -14,7 +14,7 @@
 
 .info{
     flex: 0 0 calc(50% - 1rem);
-    margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
 }
 
 .info h3, .info p{
@@ -45,6 +45,7 @@
     border-radius: 5px;
     outline: none;
     width: 100%;
+    background-color: var(--blanco);
 }
 
 .info input[type="submit"]{
