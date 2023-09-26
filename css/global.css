@@ -88,7 +88,7 @@ img {
     background: var(--degrade-claro);
 }
 
-a:hover {
+.btn-nuevo:hover {
     filter: brightness(150%);
 }
 
