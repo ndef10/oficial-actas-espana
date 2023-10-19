@@ -30,12 +30,16 @@
 
 .pregunta {
     background-color: var(--primario);
+    color: var(--blanco);
+    font-weight: bold;
     padding: 1rem;
     cursor: pointer;
 }
 
 #dos {
     background-color: var(--secundario);
+    color: var(--blanco);
+    font-weight: bold;
 }
 
 #tres {
